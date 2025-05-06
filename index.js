@@ -22,9 +22,9 @@ const port = process.env.PORT || 8800;
 // ✅ Proper CORS setup
 const corsOptions = {
   origin: [
-    /*"http://localhost:5173", // Vite default
+    "http://localhost:5173", // Vite default
     "http://localhost:3000", // React default
-    "https://mern-task-manager-app.netlify.app",*/
+    //"https://mern-task-manager-app.netlify.app",*/
     "https://tan-aardvark-644850.hostingersite.com/"
     
   ],

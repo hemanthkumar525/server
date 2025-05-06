@@ -25,7 +25,7 @@ const corsOptions = {
     "http://localhost:5173", // Vite default
     "http://localhost:3000", // React default
     //"https://mern-task-manager-app.netlify.app",*/
-    "https://tan-aardvark-644850.hostingersite.com/"
+    "https://tan-aardvark-644850.hostingersite.com"
     
   ],
   credentials: true,

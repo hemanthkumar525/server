@@ -17,14 +17,16 @@ const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, ".env") });
 
 const app = express();
-const port = process.env.PORT || 8800;
+//const port = process.env.PORT || 8800;
 
 // ✅ Proper CORS setup
 const corsOptions = {
   origin: [
-    "http://localhost:5173", // Vite default
+    /*"http://localhost:5173", // Vite default
     "http://localhost:3000", // React default
-    "https://mern-task-manager-app.netlify.app"
+    "https://mern-task-manager-app.netlify.app",*/
+    "https://tan-aardvark-644850.hostingersite.com/"
+    
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],

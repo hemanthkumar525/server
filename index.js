@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, ".env") });
 
 const app = express();
-//const port = process.env.PORT || 8800;
+const port = process.env.PORT || 8800;
 
 // ✅ Proper CORS setup
 const corsOptions = {
